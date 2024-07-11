@@ -51,7 +51,7 @@ namespace NLOPT_E
             }
 
             // Wait for keypress
-            Console.WriteLine($"See file '...\\bin\\Debug\\net8.0\\{fnx}'");
+            Console.WriteLine($"See file  '...\\bin\\Debug\\net8.0\\{fnx}'" );
             Console.WriteLine("Keypress to exit...");
             while (Console.ReadKey(true).Key == ConsoleKey.NoName) ;
 
